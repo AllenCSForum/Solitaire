@@ -15,3 +15,18 @@ Four empty piles on the side
 Rest of the deck goes onto the other side
 
 Flipped over cards can be selected
+	if any cards are under the selected card, they are also selected
+	selected cards are highlighted
+when the user clicks after having selected cards
+	if the position is valid:
+		add cards to the pile
+		valid positions:
+			for the middle piles, the top card must have a value one higher than the selected card and a different colored suit, can be empty if the selected card is a king.
+			for the side piles, must be one higher than the card on top (ace if empty) and of the right suit corresponding to the pile.
+	else:
+		deselect cards
+if the side deck is clicked:
+	take the top card, flip it over, add it to the top of the flipped pile directly below the deck
+		this card can be selected
+	if the side deck is empty, take the flipped card pile, reverse the order, put it back into the side deck
+Once all of the side and middle piles are empty, finish the game
