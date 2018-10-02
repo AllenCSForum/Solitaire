@@ -30,3 +30,7 @@ if the side deck is clicked:
 		this card can be selected
 	if the side deck is empty, take the flipped card pile, reverse the order, put it back into the side deck
 Once all of the side and middle piles are empty, finish the game
+
+
+Test
+
