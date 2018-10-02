@@ -32,5 +32,4 @@ if the side deck is clicked:
 Once all of the side and middle piles are empty, finish the game
 
 
-Test
 
