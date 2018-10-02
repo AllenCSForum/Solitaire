@@ -1,0 +1,17 @@
+Class card
+	Value 1-13
+	Suit string
+	Flipped bool
+
+Deck - array of 52 cards
+
+Shuffle the deck
+Make 7 piles of cards
+First pile is 7 cards
+2nd is 6 and so on
+Top card is flipped
+
+Four empty piles on the side
+Rest of the deck goes onto the other side
+
+Flipped over cards can be selected
